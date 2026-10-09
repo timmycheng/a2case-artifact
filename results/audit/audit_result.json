@@ -1,0 +1,25 @@
+{
+ "date": "2026-09-26",
+ "worksheet": "audit_worksheet_v2.csv",
+ "sampled": 50,
+ "verdicts": {"correct": 50, "wrong-incident": 0, "ambiguous": 0},
+ "mapping_precision": 1.00,
+ "observed_error_rate": 0.0,
+ "auditor": "Timmy (single auditor, author)",
+ "tolerance_decisions": [
+  {
+   "rows": "3 BOTNET rows",
+   "issue": "flow service port differs from documented C2 port (e.g. 52726 vs 443)",
+   "decision": "correct",
+   "rationale": "session membership is determined by attacker, victim and window; the per-flow service port does not change the incident assignment"
+  },
+  {
+   "rows": "6 Infiltration rows (POLICY-EXFIL x3, TROJAN x3)",
+   "issue": "Infiltration signature templates are drawn independently of the documented phase, so a Dropbox-API-fetch signature can occur inside the meterpreter/cool-disk phases",
+   "decision": "correct",
+   "rationale": "auditor could not inspect flow payload; the activity is external-API egress within the documented campaign window and attributes to the same single Infiltration incident regardless of phase"
+  }
+ ],
+ "construction_imprecision_noted": "emulation layer pairs Infiltration signature templates to attack flows without enforcing phase correspondence; disclosed in the paper's audit subsection as a bounded, single-incident ambiguity (no cross-incident effect)",
+ "sensitivity_link": "observed error rate e=0.0 -> the e=0 arm of audit_sensitivity.json (identity with round3, 24/24 exact) is the operating point; the pre-computed band e in {0.02,0.05,0.10,0.15} documents robustness above the observed rate"
+}

@@ -1,0 +1,46 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+  [A2 incumbent] ari=0.334 cases(total/touch/only-ref)=2590/1/2587
+  [A2 family] ari=1.000 cases(total/touch/only-ref)=8/1/4
+  [A2 psh] ari=1.000 cases(total/touch/only-ref)=2458/1/2454
+  [A2 oracle] ari=1.000 cases(total/touch/only-ref)=3959/1/3955
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [A2 llm_c1] ari=1.000 cases(total/touch/only-ref)=389/1/385
+  [D2 incumbent] ari=0.398 cases(total/touch/only-ref)=2591/2/2588
+  [D2 family] ari=0.886 cases(total/touch/only-ref)=8/1/4
+  [D2 src_family] ari=1.000 cases(total/touch/only-ref)=303/2/299
+  [D2 oracle] ari=1.000 cases(total/touch/only-ref)=3960/2/3956
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [D2 llm_c1] ari=0.886 cases(total/touch/only-ref)=389/1/385
+  [E incumbent] ari=0.991 cases(total/touch/only-ref)=1213/2/1211
+  [E best_fixed] ari=1.000 cases(total/touch/only-ref)=12/5/9
+  [E psh] ari=1.000 cases(total/touch/only-ref)=1198/4/1195
+  [E oracle] ari=1.000 cases(total/touch/only-ref)=1331/2/1328
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [E llm_c1] ari=1.000 cases(total/touch/only-ref)=660/5/657
+  [R-thursday incumbent] ari=0.000 cases(total/touch/only-ref)=1927/2/1927
+  [R-thursday family] ari=0.000 cases(total/touch/only-ref)=47/4/47
+  [R-thursday julisch] ari=1.000 cases(total/touch/only-ref)=205/1/205
+  [R-thursday oracle] ari=0.000 cases(total/touch/only-ref)=2155/2/2155
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+C:\Python312\Lib\site-packages\transformers\generation\configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  [R-thursday llm_c1] ari=0.000 cases(total/touch/only-ref)=467/4/467
+case cards -> results/case_cards.json

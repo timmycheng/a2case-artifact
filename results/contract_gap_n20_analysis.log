@@ -1,0 +1,48 @@
+inst        S1      S3       d   r3_S1   anchor  oracle      bf
+P05     0.6725  1.0000 +0.3275  0.6725       ok  1.0000  1.0000
+P06     0.6717  0.6358 -0.0359  0.6717       ok  1.0000  1.0000
+P11     0.8665  0.7761 -0.0904  0.8665       ok  0.9678  1.0000
+P12     0.8700  0.7170 -0.1529  0.8700       ok  1.0000  1.0000
+P17     0.5461  0.9785 +0.4323  0.5461       ok  0.9950  0.9997
+P18     0.4838  0.3659 -0.1179  0.4838       ok  1.0000  0.9999
+P23     0.6451  0.9195 +0.2744  0.6458     DIFF  1.0000  0.8532
+P24     0.7070  1.0000 +0.2930  0.7070       ok  1.0000  0.8533
+P25     0.6758  1.0000 +0.3242  0.6758       ok  1.0000  1.0000
+P26     0.8614  0.9250 +0.0636  0.8614       ok  1.0000  1.0000
+P27     0.4754  0.9998 +0.5244  0.4754       ok  1.0000  0.9998
+P28     0.7989  0.6837 -0.1152  0.7989       ok  1.0000  0.8500
+P29     0.6717  1.0000 +0.3283  0.6717       ok  1.0000  1.0000
+P30     0.8700  0.7883 -0.0817  0.8700       ok  0.9813  1.0000
+P31     0.4837  0.9989 +0.5152  0.4837       ok  0.9991  0.9998
+P32     0.7033  0.9951 +0.2918  0.7033       ok  1.0000  0.8533
+P33     0.6725  0.6090 -0.0635  0.6725       ok  1.0000  1.0000
+P34     0.8665  0.7769 -0.0896  0.8665       ok  0.9884  1.0000
+P35     0.5461  0.3938 -0.1523  0.5461       ok  0.9964  0.9997
+P36     0.7719  1.0000 +0.2281  0.7719       ok  1.0000  0.8532
+
+S1 anchor vs round3 rows (20 instances): MISMATCH (patch needed: --only <pid> --device cpu)
+mean ARI: S1=0.6930  S3=0.8282  oracle=0.9964  best-fixed=0.9631
+gap to oracle: S1=+0.3034  S3=+0.1682  recovered fraction=0.446  (n=20)
+
+paired tests (prereg: two-sided Wilcoxon zero-dropped, bootstrap 20k rng17):
+  S3-S1 : dmean=+0.1352 wins/ties/losses=11/0/9 wilcoxon p=0.04844 95%CI[+0.0336,+0.2385]
+  oracle-S3: dmean=+0.1682 wins/ties/losses=15/5/0 wilcoxon p=6.104e-05 95%CI[+0.0854,+0.2606]
+  oracle-S1: dmean=+0.3034 wins/ties/losses=20/0/0 wilcoxon p=8.832e-05 95%CI[+0.2443,+0.3626]
+B-Cubed F1 means (attack restriction): S1=0.8501  S3=0.8802
+
+mechanism counts, S3 on n=20 (window twin-family frac >= 0.5 => twin-dominated):
+  twin-dominated  n=  74  family,src=63  family,dst=11  other=0
+  noise-dominated n=2073  family,src=1983  family,dst=89  other=1
+
+seed replication (greedy decode deterministic per stream; variation = stream seed):
+stream          S1      S3
+D2-s17      0.8856  1.0000
+D2-s29      0.8856  1.0000
+D2-s43      0.8856  1.0000
+P12-s29     0.8573  0.6885
+P12-s43     0.8649  0.6282
+P24-s29     0.6775  0.8967
+P24-s43     0.6748  0.8320
+  D2 spread: S1 [0.8856,0.8856]  S3 [1.0000,1.0000] over seeds ['17', '29', '43']
+  P12 spread: S1 [0.8573,0.8649]  S3 [0.6282,0.6885] over seeds ['29', '43']
+  P24 spread: S1 [0.6748,0.6775]  S3 [0.8320,0.8967] over seeds ['29', '43']

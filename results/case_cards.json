@@ -1,0 +1,793 @@
+{
+ "A2": {
+  "scenario": "A2",
+  "n_ref_alerts": 1500,
+  "ref_incidents": [
+   "dos-hulk"
+  ],
+  "arms": {
+   "incumbent": {
+    "ari": 0.3343291781419665,
+    "n_cases_total": 2590,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 2587,
+    "ref_split": false,
+    "over_merge": true,
+    "cases": [
+     {
+      "size": 4500,
+      "span_min": 73.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 3,
+      "top_family": "DOS-SLOWLORIS",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk",
+       "dos-slowhttptest",
+       "dos-slowloris"
+      ]
+     }
+    ],
+    "secs": 0.1
+   },
+   "family": {
+    "ari": 1.0,
+    "n_cases_total": 8,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 4,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 1500,
+      "span_min": 17.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "psh": {
+    "ari": 1.0,
+    "n_cases_total": 2458,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 2454,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 1500,
+      "span_min": 17.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "oracle": {
+    "ari": 1.0,
+    "n_cases_total": 3959,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 3955,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 1500,
+      "span_min": 17.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk"
+      ]
+     }
+    ],
+    "secs": 8.4
+   },
+   "llm_c1": {
+    "ari": 1.0,
+    "n_cases_total": 389,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 385,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 1500,
+      "span_min": 17.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk"
+      ]
+     }
+    ],
+    "secs": 42.2
+   }
+  }
+ },
+ "D2": {
+  "scenario": "D2",
+  "n_ref_alerts": 2100,
+  "ref_incidents": [
+   "dos-hulk",
+   "dos-hulk-twin"
+  ],
+  "arms": {
+   "incumbent": {
+    "ari": 0.3977972182756041,
+    "n_cases_total": 2591,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 2588,
+    "ref_split": true,
+    "over_merge": true,
+    "cases": [
+     {
+      "size": 4500,
+      "span_min": 73.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 3,
+      "top_family": "DOS-SLOWLORIS",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk",
+       "dos-slowhttptest",
+       "dos-slowloris"
+      ]
+     },
+     {
+      "size": 600,
+      "span_min": 6.5,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.70",
+      "incidents": [
+       "dos-hulk-twin"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "family": {
+    "ari": 0.8855644157429483,
+    "n_cases_total": 8,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 4,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 2100,
+      "span_min": 17.0,
+      "n_srcs": 2,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk",
+       "dos-hulk-twin"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "src_family": {
+    "ari": 1.0,
+    "n_cases_total": 303,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 299,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 1500,
+      "span_min": 17.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk"
+      ]
+     },
+     {
+      "size": 600,
+      "span_min": 6.5,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.70",
+      "incidents": [
+       "dos-hulk-twin"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "oracle": {
+    "ari": 1.0,
+    "n_cases_total": 3960,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 3956,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 1500,
+      "span_min": 17.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk"
+      ]
+     },
+     {
+      "size": 600,
+      "span_min": 6.5,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.70",
+      "incidents": [
+       "dos-hulk-twin"
+      ]
+     }
+    ],
+    "secs": 9.4
+   },
+   "llm_c1": {
+    "ari": 0.8855644157429483,
+    "n_cases_total": 389,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 385,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 2100,
+      "span_min": 17.0,
+      "n_srcs": 2,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "DOS-HULK",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "dos-hulk",
+       "dos-hulk-twin"
+      ]
+     }
+    ],
+    "secs": 41.1
+   }
+  }
+ },
+ "E": {
+  "scenario": "E",
+  "n_ref_alerts": 25,
+  "ref_incidents": [
+   "infiltration"
+  ],
+  "arms": {
+   "incumbent": {
+    "ari": 0.991204175147856,
+    "n_cases_total": 1213,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 1211,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 24,
+      "span_min": 71.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "best_fixed": {
+    "ari": 0.9997969775135742,
+    "n_cases_total": 12,
+    "n_cases_touching_ref": 5,
+    "n_cases_only_ref": 9,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 20,
+      "span_min": 59.1,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 2,
+      "span_min": 2.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "psh": {
+    "ari": 0.9998714797293675,
+    "n_cases_total": 1198,
+    "n_cases_touching_ref": 4,
+    "n_cases_only_ref": 1195,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 22,
+      "span_min": 65.1,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "oracle": {
+    "ari": 0.9999552967301772,
+    "n_cases_total": 1331,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 1328,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 24,
+      "span_min": 71.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 3.3
+   },
+   "llm_c1": {
+    "ari": 0.9997969775135742,
+    "n_cases_total": 660,
+    "n_cases_touching_ref": 5,
+    "n_cases_only_ref": 657,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 20,
+      "span_min": 59.1,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 2,
+      "span_min": 2.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "TROJAN",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "POLICY-EXFIL",
+      "top_src": "205.174.165.73",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 39.2
+   }
+  }
+ },
+ "R-thursday": {
+  "scenario": "R-thursday",
+  "n_ref_alerts": 23767,
+  "ref_incidents": [
+   "infiltration"
+  ],
+  "arms": {
+   "incumbent": {
+    "ari": 0.0,
+    "n_cases_total": 1927,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 1927,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 23764,
+      "span_min": 20.8,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 3,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "family": {
+    "ari": 0.0,
+    "n_cases_total": 47,
+    "n_cases_touching_ref": 4,
+    "n_cases_only_ref": 47,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 23760,
+      "span_min": 20.8,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 4,
+      "span_min": 13.5,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "SUCCESSFUL ADMINISTRATOR PRIVILEGE GAIN",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 2,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "SUCCESSFUL ADMINISTRATOR PRIVILEGE GAIN",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 0.0
+   },
+   "julisch": {
+    "ari": 1.0,
+    "n_cases_total": 205,
+    "n_cases_touching_ref": 1,
+    "n_cases_only_ref": 205,
+    "ref_split": false,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 27513,
+      "span_min": 483.4,
+      "n_srcs": 936,
+      "n_dsts": 20,
+      "n_families": 7,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 0.4
+   },
+   "oracle": {
+    "ari": 0.0,
+    "n_cases_total": 2155,
+    "n_cases_touching_ref": 2,
+    "n_cases_only_ref": 2155,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 23764,
+      "span_min": 20.8,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 3,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 2,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 10.6
+   },
+   "llm_c1": {
+    "ari": 0.0,
+    "n_cases_total": 467,
+    "n_cases_touching_ref": 4,
+    "n_cases_only_ref": 467,
+    "ref_split": true,
+    "over_merge": false,
+    "cases": [
+     {
+      "size": 23760,
+      "span_min": 20.8,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 4,
+      "span_min": 13.5,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "SUCCESSFUL ADMINISTRATOR PRIVILEGE GAIN",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 2,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "A NETWORK TROJAN WAS DETECTED",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     },
+     {
+      "size": 1,
+      "span_min": 0.0,
+      "n_srcs": 1,
+      "n_dsts": 1,
+      "n_families": 1,
+      "top_family": "SUCCESSFUL ADMINISTRATOR PRIVILEGE GAIN",
+      "top_src": "192.168.10.8",
+      "incidents": [
+       "infiltration"
+      ]
+     }
+    ],
+    "secs": 48.5
+   }
+  }
+ }
+}

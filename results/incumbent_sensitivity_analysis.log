@@ -1,0 +1,25 @@
+identity checks vs stored round-3 rows: ALL BIT-IDENTICAL
+
+=== LLM (deployed S1) vs static_family ===
+  pooled-24 (locked suite) dmean=-0.0149 W/T/L=0/19/5 p=0.0625 CI[-0.0315,-0.0016]
+  single-16                dmean=-0.0069 W/T/L=0/13/3 p=0.25 CI[-0.0182,+0.0000]
+  mixed-20                 dmean=-0.0187 W/T/L=0/15/5 p=0.0625 CI[-0.0398,-0.0018]
+  means: single-16 0.9999  mixed-20 0.7117
+
+=== LLM (deployed S1) vs static_family_dst ===
+  pooled-24 (locked suite) dmean=-0.0149 W/T/L=0/19/5 p=0.0625 CI[-0.0315,-0.0016]
+  single-16                dmean=-0.0069 W/T/L=0/13/3 p=0.25 CI[-0.0182,+0.0000]
+  mixed-20                 dmean=-0.0187 W/T/L=0/15/5 p=0.0625 CI[-0.0398,-0.0018]
+  means: single-16 0.9999  mixed-20 0.7117
+
+=== B-Cubed F1 (attack restriction), mixed-20 ===
+  incumbent            ARI 0.7132  BCubedF1 0.8394  (n=20)
+  family               ARI 0.7117  BCubedF1 0.8608  (n=20)
+  family,dst           ARI 0.7117  BCubedF1 0.8608  (n=20)
+  best-fixed (7@w10)   ARI 0.9631  BCubedF1 0.9731  (n=20)
+  best-fixed (14)      ARI 0.9631  BCubedF1 0.9731  (n=20)
+  PSH                  ARI 0.6788  BCubedF1 0.8084  (n=20)
+  oracle               ARI 0.9964  BCubedF1 0.9968  (n=20)
+  best-fixed 14 vs 7@w10: dmean=+0.0000 changed 0/20 instances
+  LLM S1       BCubedF1 0.8533  (n=14)
+  LLM S3       BCubedF1 0.8940  (n=13)

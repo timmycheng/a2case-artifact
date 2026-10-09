@@ -1,0 +1,84 @@
+{
+ "date": "2026-09-21",
+ "seed": 20260921,
+ "target_n": 50,
+ "unit": "one mapped attack alert (one session-to-incident assignment)",
+ "precision_definition": "fraction of sampled alerts whose assigned incident the auditor judges correct",
+ "verdicts": [
+  "correct",
+  "wrong-incident",
+  "ambiguous"
+ ],
+ "build": {
+  "scenario_seed": 17,
+  "noise_ratio": 1.0,
+  "twins": "scenarios.build_twins seed 17 (synthetic D2)"
+ },
+ "strata": {
+  "BOTNET": {
+   "population": 1474,
+   "sampled": 3
+  },
+  "BRUTE-FTP": {
+   "population": 1500,
+   "sampled": 4
+  },
+  "BRUTE-SSH": {
+   "population": 1500,
+   "sampled": 4
+  },
+  "DDOS": {
+   "population": 1500,
+   "sampled": 3
+  },
+  "DOS-GOLDENEYE": {
+   "population": 1500,
+   "sampled": 3
+  },
+  "DOS-HULK": {
+   "population": 1500,
+   "sampled": 3
+  },
+  "DOS-HULK-twin (synthetic D2)": {
+   "population": 600,
+   "sampled": 3
+  },
+  "DOS-SLOWHTTP": {
+   "population": 1500,
+   "sampled": 3
+  },
+  "DOS-SLOWLORIS": {
+   "population": 1500,
+   "sampled": 3
+  },
+  "EXPLOIT": {
+   "population": 9,
+   "sampled": 3
+  },
+  "POLICY-EXFIL": {
+   "population": 4,
+   "sampled": 3
+  },
+  "SCAN": {
+   "population": 1500,
+   "sampled": 3
+  },
+  "TROJAN": {
+   "population": 21,
+   "sampled": 3
+  },
+  "WEB-BRUTE": {
+   "population": 1055,
+   "sampled": 3
+  },
+  "WEB-SQLI": {
+   "population": 12,
+   "sampled": 3
+  },
+  "WEB-XSS": {
+   "population": 391,
+   "sampled": 3
+  }
+ },
+ "out_of_scope": "benign false-positive alerts (no mapping claim)"
+}

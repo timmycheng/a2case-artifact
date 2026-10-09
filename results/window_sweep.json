@@ -1,0 +1,5127 @@
+[
+ {
+  "part": "burst_anatomy",
+  "scenario": "R-thursday",
+  "n_attack": 23767,
+  "span_min": 45.418855317433675,
+  "span_utc_first": 1499361585.213311,
+  "span_utc_last": 1499364310.34463,
+  "top_gaps_min": [
+   24.611893900235494,
+   9.105107235908509,
+   0.48084648450215656,
+   0.1294562816619873,
+   0.10527859926223755,
+   0.09989298184712728,
+   0.0929070512453715,
+   0.0678145170211792,
+   0.06739904880523681,
+   0.06216771602630615
+  ],
+  "max_gap_min": 24.611893900235494,
+  "max_gap_seconds": 1476.7136340141296,
+  "implied_min_timeout_min": 25,
+  "keys": 1,
+  "sids": 4
+ },
+ {
+  "part": "window_sweep",
+  "scenario": "R-thursday",
+  "timeout_min": 1,
+  "incumbent": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 12.244407622203811,
+   "cases_total": 2414,
+   "cases_per_incident": 2414.0,
+   "benign_contam": 0.0,
+   "burst_cases": 3
+  },
+  "oracle": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 12.244407622203811,
+   "cases_total": 2414,
+   "cases_per_incident": 2414.0,
+   "benign_contam": 0.0,
+   "burst_cases": 3,
+   "trace": [
+    {
+     "window": 0,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 1,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 2,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 3,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 4,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 5,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 6,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 7,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 8,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 9,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 10,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 11,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 12,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 13,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 14,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 15,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 16,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 17,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 18,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 19,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 20,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 21,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 22,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 23,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 24,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 25,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 26,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 27,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 28,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 29,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 30,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 31,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 32,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 33,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 34,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 35,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 36,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 37,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 38,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 39,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 40,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 41,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 42,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 43,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 44,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 45,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 46,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 47,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 48,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 49,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 50,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 51,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 52,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 53,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 54,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 55,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 56,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 57,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": -1.0
+    },
+    {
+     "window": 58,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 1.0
+    },
+    {
+     "window": 59,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 1.0
+    },
+    {
+     "window": 60,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 61,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 62,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 63,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 64,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 65,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 66,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 67,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 68,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 69,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 70,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 71,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 72,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 73,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 74,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 75,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 76,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 77,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 78,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 79,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 80,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 81,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 82,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 83,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 84,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 85,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 86,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 87,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 88,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 89,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    },
+    {
+     "window": 90,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 1,
+     "global_ari": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "part": "window_sweep",
+  "scenario": "R-thursday",
+  "timeout_min": 5,
+  "incumbent": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 13.703291608715809,
+   "cases_total": 2157,
+   "cases_per_incident": 2157.0,
+   "benign_contam": 0.0,
+   "burst_cases": 3
+  },
+  "oracle": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 13.703291608715809,
+   "cases_total": 2157,
+   "cases_per_incident": 2157.0,
+   "benign_contam": 0.0,
+   "burst_cases": 3,
+   "trace": [
+    {
+     "window": 0,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 1,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 2,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 3,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 4,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 5,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 6,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 7,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 8,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 9,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 10,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 11,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 12,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 13,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 14,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 15,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 16,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 17,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 18,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 19,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 20,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 21,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 22,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 23,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 24,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 25,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 26,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 27,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 28,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 29,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 30,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 31,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 32,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 33,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 34,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 35,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 36,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 37,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 38,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 39,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 40,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 41,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 42,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 43,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 44,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 45,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 46,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 47,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 48,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 49,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 50,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 51,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 52,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 53,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 54,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 55,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 56,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 57,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": -1.0
+    },
+    {
+     "window": 58,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 1.0
+    },
+    {
+     "window": 59,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 1.0
+    },
+    {
+     "window": 60,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 61,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 62,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 63,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 64,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 65,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 66,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 67,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 68,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 69,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 70,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 71,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 72,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 73,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 74,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 75,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 76,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 77,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 78,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 79,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 80,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 81,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 82,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 83,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 84,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 85,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 86,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 87,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 88,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 89,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    },
+    {
+     "window": 90,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 5,
+     "global_ari": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "part": "window_sweep",
+  "scenario": "R-thursday",
+  "timeout_min": 10,
+  "incumbent": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 15.338868707836015,
+   "cases_total": 1927,
+   "cases_per_incident": 1927.0,
+   "benign_contam": 0.0,
+   "burst_cases": 2
+  },
+  "oracle": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 15.338868707836015,
+   "cases_total": 1927,
+   "cases_per_incident": 1927.0,
+   "benign_contam": 0.0,
+   "burst_cases": 2,
+   "trace": [
+    {
+     "window": 0,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 1,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 2,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 3,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 4,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 5,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 6,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 7,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 8,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 9,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 10,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 11,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 12,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 13,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 14,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 15,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 16,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 17,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 18,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 19,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 20,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 21,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 22,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 23,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 24,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 25,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 26,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 27,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 28,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 29,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 30,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 31,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 32,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 33,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 34,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 35,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 36,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 37,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 38,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 39,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 40,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 41,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 42,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 43,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 44,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 45,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 46,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 47,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 48,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 49,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 50,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 51,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 52,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 53,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 54,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 55,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 56,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 57,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": -1.0
+    },
+    {
+     "window": 58,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 59,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 60,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 61,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 62,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 63,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 64,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 65,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 66,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 1.0
+    },
+    {
+     "window": 67,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 68,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 69,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 70,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 71,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 72,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 73,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 74,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 75,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 76,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 77,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 78,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 79,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 80,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 81,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 82,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 83,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 84,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 85,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 86,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 87,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 88,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 89,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    },
+    {
+     "window": 90,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 10,
+     "global_ari": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "part": "window_sweep",
+  "scenario": "R-thursday",
+  "timeout_min": 15,
+  "incumbent": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 16.037981551817687,
+   "cases_total": 1843,
+   "cases_per_incident": 1843.0,
+   "benign_contam": 0.0,
+   "burst_cases": 2
+  },
+  "oracle": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 16.037981551817687,
+   "cases_total": 1843,
+   "cases_per_incident": 1843.0,
+   "benign_contam": 0.0,
+   "burst_cases": 2,
+   "trace": [
+    {
+     "window": 0,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 1,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 2,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 3,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 4,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 5,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 6,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 7,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 8,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 9,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 10,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 11,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 12,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 13,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 14,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 15,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 16,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 17,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 18,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 19,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 20,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 21,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 22,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 23,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 24,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 25,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 26,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 27,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 28,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 29,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 30,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 31,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 32,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 33,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 34,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 35,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 36,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 37,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 38,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 39,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 40,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 41,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 42,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 43,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 44,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 45,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 46,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 47,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 48,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 49,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 50,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 51,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 52,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 53,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 54,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 55,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 56,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 57,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": -1.0
+    },
+    {
+     "window": 58,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 59,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 60,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 61,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 62,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 63,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 64,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 65,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 66,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 1.0
+    },
+    {
+     "window": 67,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 68,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 69,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 70,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 71,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 72,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 73,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 74,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 75,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 76,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 77,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 78,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 79,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 80,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 81,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 82,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 83,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 84,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 85,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 86,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 87,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 88,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 89,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    },
+    {
+     "window": 90,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 15,
+     "global_ari": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "part": "window_sweep",
+  "scenario": "R-thursday",
+  "timeout_min": 20,
+  "incumbent": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 16.51284916201117,
+   "cases_total": 1790,
+   "cases_per_incident": 1790.0,
+   "benign_contam": 0.0,
+   "burst_cases": 2
+  },
+  "oracle": {
+   "ari": 0.0,
+   "nmi": 0.0,
+   "purity": 1.0,
+   "under": 1.0,
+   "over": 0.0,
+   "compression": 16.51284916201117,
+   "cases_total": 1790,
+   "cases_per_incident": 1790.0,
+   "benign_contam": 0.0,
+   "burst_cases": 2,
+   "trace": [
+    {
+     "window": 0,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 1,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 2,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 3,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 4,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 5,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 6,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 7,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 8,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 9,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 10,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 11,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 12,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 13,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 14,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 15,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 16,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 17,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 18,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 19,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 20,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 21,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 22,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 23,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 24,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 25,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 26,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 27,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 28,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 29,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 30,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 31,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 32,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 33,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 34,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 35,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 36,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 37,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 38,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 39,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 40,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 41,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 42,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 43,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 44,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 45,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 46,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 47,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 48,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 49,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 50,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 51,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 52,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 53,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 54,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 55,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 56,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 57,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": -1.0
+    },
+    {
+     "window": 58,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 59,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 60,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 61,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 62,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 63,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 64,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 65,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 66,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 1.0
+    },
+    {
+     "window": 67,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 68,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 69,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 70,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 71,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 72,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 73,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 74,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 75,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 76,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 77,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 78,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 79,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 80,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 81,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 82,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 83,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 84,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 85,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 86,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 87,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 88,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 89,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    },
+    {
+     "window": 90,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 20,
+     "global_ari": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "part": "window_sweep",
+  "scenario": "R-thursday",
+  "timeout_min": 30,
+  "incumbent": {
+   "ari": 1.0,
+   "nmi": 1.0,
+   "purity": 1.0,
+   "under": 0.0,
+   "over": 0.0,
+   "compression": 16.890285714285714,
+   "cases_total": 1750,
+   "cases_per_incident": 1750.0,
+   "benign_contam": 0.0,
+   "burst_cases": 1
+  },
+  "oracle": {
+   "ari": 1.0,
+   "nmi": 1.0,
+   "purity": 1.0,
+   "under": 0.0,
+   "over": 0.0,
+   "compression": 16.890285714285714,
+   "cases_total": 1750,
+   "cases_per_incident": 1750.0,
+   "benign_contam": 0.0,
+   "burst_cases": 1,
+   "trace": [
+    {
+     "window": 0,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 1,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 2,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 3,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 4,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 5,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 6,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 7,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 8,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 9,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 10,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 11,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 12,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 13,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 14,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 15,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 16,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 17,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 18,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 19,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 20,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 21,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 22,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 23,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 24,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 25,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 26,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 27,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 28,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 29,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 30,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 31,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 32,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 33,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 34,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 35,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 36,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 37,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 38,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 39,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 40,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 41,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 42,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 43,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 44,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 45,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 46,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 47,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 48,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 49,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 50,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 51,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 52,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 53,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 54,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 55,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 56,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 57,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": -1.0
+    },
+    {
+     "window": 58,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 59,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 60,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 61,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 62,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 63,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 64,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 65,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 66,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 67,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 68,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 69,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 70,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 71,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 72,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 73,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 74,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 75,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 76,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 77,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 78,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 79,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 80,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 81,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 82,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 83,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 84,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 85,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 86,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 87,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 88,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 89,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    },
+    {
+     "window": 90,
+     "dims": [
+      "src",
+      "dst"
+     ],
+     "window_min": 30,
+     "global_ari": 1.0
+    }
+   ]
+  }
+ }
+]

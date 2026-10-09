@@ -1,0 +1,60 @@
+\begin{table}[t]
+\centering\small
+\caption{Grouping faithfulness and cost by scenario instance (reference
+seed 17; per-seed stability in \S\ref{sec:protocol}).
+Under: incidents split across cases. Over: cases spanning incidents.
+Compression: alerts per case on the full stream \emph{including false
+positives} (case counts follow by division --- e.g.\ the embedding arm's
+2{,}003 on A2 is 12{,}018 alerts in 6 cases; the embedding arm's few
+large cases are exactly where its FP absorption comes from). Contam: false
+positives absorbed per attack alert. USD/10k: the arm's per-window call
+pattern priced at 0.5B API-equivalent rates (PSH itself is deterministic
+and costs nothing; Table~\ref{tab:cost}).}
+\label{tab:main}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+Scen. & Arm & ARI & Purity & Under & Over & Compr. & USD/10k \\
+\midrule
+A1 & Static rules & 1.00 & 1.00 & 0.00 & 0.00 & 3 & 0.00 \\
+A1 & Embedding & 1.00 & 1.00 & 0.00 & 0.00 & 1000 & 0.00 \\
+A1 & Generated (PSH) & 1.00 & 1.00 & 0.00 & 0.00 & 3 & 0.02 \\
+\addlinespace[2pt]
+A2 & Static rules & 0.33 & 0.50 & 0.00 & 0.33 & 5 & 0.00 \\
+A2 & Embedding & 0.00 & 0.25 & 0.00 & 0.50 & 2003 & 0.00 \\
+A2 & Generated (PSH) & \textbf{1.00} & \textbf{1.00} & 0.00 & 0.00 & 5 & 0.01 \\
+\addlinespace[2pt]
+A3 & Static rules & 0.82 & 1.00 & 0.33 & 0.00 & 7 & 0.00 \\
+A3 & Embedding & \textbf{1.00} & \textbf{1.00} & 0.00 & 0.00 & 1278 & 0.00 \\
+A3 & Generated (PSH) & 0.72 & 1.00 & 0.67 & 0.00 & 4 & 0.01 \\
+\addlinespace[2pt]
+B1 & Static rules & \textbf{1.00} & 1.00 & 0.00 & 0.00 & 29 & 0.00 \\
+B1 & Embedding & 0.75 & 1.00 & 0.50 & 0.00 & 3000 & 0.00 \\
+B1 & Generated (PSH) & 0.97 & 1.00 & 1.00 & 0.00 & 25 & 0.00 \\
+\addlinespace[2pt]
+B2 & Static rules & 0.33 & 0.50 & 0.00 & 0.33 & 273 & 0.00 \\
+B2 & Embedding & 0.00 & 0.25 & 0.20 & 0.25 & 6009 & 0.00 \\
+B2 & Generated (PSH) & \textbf{0.97} & \textbf{1.00} & 0.40 & 0.00 & 64 & 0.00 \\
+\addlinespace[2pt]
+B3 & Static rules & 0.82 & 1.00 & 0.33 & 0.00 & 17 & 0.00 \\
+B3 & Embedding & 0.67 & 1.00 & 0.67 & 0.17 & 3356 & 0.00 \\
+B3 & Generated (PSH) & \textbf{0.92} & \textbf{1.00} & 0.67 & 0.00 & 17 & 0.00 \\
+\addlinespace[2pt]
+E & Static rules & \textbf{0.99} & 0.99 & 0.25 & 0.25 & 2 & 0.00 \\
+E & Embedding & 0.09 & 0.73 & 0.25 & 0.33 & 593 & 0.00 \\
+E & Generated (PSH) & \textbf{1.00}$^{\dagger}$ & \textbf{1.00} & 0.25 & 0.00 & 2 & 0.03 \\
+\addlinespace[2pt]
+D2$^{\ddagger}$ & Static rules (\texttt{src,dst}) & 0.40 & 0.55 & 0.00 & 0.25 & 5 & 0.00 \\
+D2$^{\ddagger}$ & Static rules (\texttt{family}) & 0.89 & 0.91 & 0.00 & 0.20 & 1577 & 0.00 \\
+D2$^{\ddagger}$ & Static rules (\texttt{src,family}) & \textbf{1.00} & \textbf{1.00} & 0.00 & 0.00 & 42 & 0.00 \\
+D2$^{\ddagger}$ & Embedding & 0.00 & 0.23 & 0.00 & 0.50 & 2103 & 0.00 \\
+D2$^{\ddagger}$ & Generated (PSH) & 0.89 & 0.91 & 0.00 & 0.20 & 5 & 0.00 \\
+D2$^{\ddagger}$ & Generated (LLM 0.5B) & 0.89 & 0.91 & 0.00 & 0.20 & 32 & 0.01 \\
+\bottomrule
+\multicolumn{8}{l}{\footnotesize $^{\dagger}$Seed spread on E for the
+PSH generator: $\{1.00, 0.41, 0.79, 0.87, 1.00\}$ (mean 0.81); the LLM}\\
+\multicolumn{8}{l}{\footnotesize generator is stable at $1.000$ on all
+five seeds (Table~\ref{tab:llm}). $^{\ddagger}$D2 is the controlled
+concurrency stress test of \S\ref{sec:no-fixed-winner} (synthetic).}
+\end{tabular}}
+\end{table}
