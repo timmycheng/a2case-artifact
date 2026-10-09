@@ -1282,5 +1282,27 @@
   "llm_valid": 84,
   "llm_calls": 107,
   "dims_hist": "[[\"family\", \"dst\"], [\"family\", \"src\"], [\"src\", \"dst\"], [\"src\", \"family\"]]"
+ },
+ {
+  "part": "summary_ablation",
+  "scenario": "D2",
+  "arm": "glm_summary_S4",
+  "seed": 17,
+  "level": 4,
+  "n_alerts": 12618,
+  "n_incidents": 6,
+  "ari": 0.3977972182756041,
+  "nmi": 0.6880860827847816,
+  "purity": 0.5460735360871539,
+  "under": 0.0,
+  "over": 0.25,
+  "compression": 4.869934388267079,
+  "cases_total": 2591,
+  "cases_per_incident": 431.8333333333333,
+  "benign_contam": 0.0,
+  "usd_per_10k": 0.0,
+  "llm_valid": -107,
+  "llm_calls": 0,
+  "dims_hist": "[[\"src\", \"dst\"]]"
  }
 ]

@@ -6,6 +6,7 @@ B. Original scenarios + D2 with GLM-5.3 (frontier condition, parallel).
 C. Summary information ablation S1-S4 on D2 (GLM + 0.5B).
 Writes round3.json + stats summary.
 """
+import os
 
 import json
 import sys
