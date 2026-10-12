@@ -34,7 +34,7 @@ Design invariants (fixed before running):
   * decoding is deterministic (local greedy; GLM temperature 0).
 
 Entry point:
-    python -m a2c.s4_reversion --data <csv-dir> --out results/s4_reversion.json \
+    python -m a2case.s4_reversion --data <csv-dir> --out results/s4_reversion.json \
         --gen local|glm|both
 """
 
@@ -50,7 +50,7 @@ from .classics import GLMPolicyGen, run_hybrid_precomputed, stream_summary
 
 GLM_KEY = os.environ.get("GLM_API_KEY", "")  # set GLM_API_KEY to run the GLM conditions
 GLM_BASE = "https://open.bigmodel.cn/api/coding/paas/v4"
-QWEN = os.environ.get("A2C_QWEN_DIR", "../data/models/Qwen2.5-0.5B-Instruct")
+QWEN = os.environ.get("A2CASE_QWEN_DIR", "../data/models/Qwen2.5-0.5B-Instruct")
 
 
 # ---------------------------------------------------------------------------

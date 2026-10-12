@@ -19,11 +19,11 @@ from .classics import (OracleGen, run_julisch, GLMPolicyGen,
                        run_hybrid_precomputed, stream_summary, DIM_SETS)
 from .locals import LocalLLMPolicyGen, MiniLMEmbedder
 
-QWEN = os.environ.get("A2C_QWEN_DIR", "../data/models/Qwen2.5-0.5B-Instruct")
-MINILM = os.environ.get("A2C_MINILM_DIR", r"..\data\models\all-MiniLM-L6-v2")
+QWEN = os.environ.get("A2CASE_QWEN_DIR", "../data/models/Qwen2.5-0.5B-Instruct")
+MINILM = os.environ.get("A2CASE_MINILM_DIR", r"..\data\models\all-MiniLM-L6-v2")
 
 GLM_KEY = os.environ.get("GLM_API_KEY", "")  # set GLM_API_KEY to run the GLM conditions
-DATA = os.environ.get("A2C_DATA_DIR") or os.path.expanduser(
+DATA = os.environ.get("A2CASE_DATA_DIR") or os.path.expanduser(
     os.path.join("~", ".cache", "kagglehub", "datasets", "chethuhn",
     "network-intrusion-dataset", "versions", "1"))
 

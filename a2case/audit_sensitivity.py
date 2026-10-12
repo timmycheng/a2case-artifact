@@ -19,7 +19,7 @@ hindsight-best fixed, PSH, 0.5B LLM, oracle). The 0.5B arm is optional
 (--llm); without it the sweep is CPU-cheap apart from the oracle.
 
 Entry point:
-    python -m a2c.audit_sensitivity --data <csv-dir> \
+    python -m a2case.audit_sensitivity --data <csv-dir> \
         --out results/audit_sensitivity.json [--llm] \
         [--instances P01,P02,... | --instances all]
 """

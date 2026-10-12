@@ -1,15 +1,15 @@
 """Run ONLY the GLM summary ablation (S1-S4 on D2), appending to round3_glm.json."""
 import json, traceback
-from a2c import scenarios, metrics, arms
-from a2c.classics import GLMPolicyGen, run_hybrid_precomputed
-from a2c.round3 import GLM_KEY, DATA
+from a2case import scenarios, metrics, arms
+from a2case.classics import GLMPolicyGen, run_hybrid_precomputed
+from a2case.round3 import GLM_KEY, DATA
 
 out_path = "results/round3_glm.json"
 rows = json.load(open(out_path))
 done = {(r["scenario"], r["arm"]) for r in rows if r["part"] == "summary_ablation"}
 zf = DATA
 sc = scenarios.build_twins(zf, seed=17)
-from a2c.arms import _windowize
+from a2case.arms import _windowize
 windows = _windowize(sc.alerts, 300)
 n = len(sc.alerts)
 try:

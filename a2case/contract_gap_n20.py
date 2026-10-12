@@ -12,11 +12,11 @@ twin-family/twin-source counts per window), the B-Cubed complementary
 metric, and the seed legs.
 
 Entry (from experiments/):
-    python -m a2c.contract_gap_n20 --data <csv-dir> \
+    python -m a2case.contract_gap_n20 --data <csv-dir> \
         [--out results/contract_gap_n20.json] [--device cuda] \
         [--leg mixed|seeds|all]
-    python -m a2c.contract_gap_n20 --only P23 --device cpu   # anchor patch
-    python -m a2c.contract_gap_n20 --analyze-only
+    python -m a2case.contract_gap_n20 --only P23 --device cpu   # anchor patch
+    python -m a2case.contract_gap_n20 --analyze-only
 """
 
 import argparse

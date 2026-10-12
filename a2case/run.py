@@ -1,7 +1,7 @@
 """Experiment runner: three arms x scenarios, ablations, cost accounting.
 
 Outputs JSON results + CSV tables to experiments/results/.
-Usage:  python -m a2c.run --data <dir-or-zip> --out results
+Usage:  python -m a2case.run --data <dir-or-zip> --out results
 """
 
 import argparse

@@ -19,7 +19,7 @@ stored round-3 static_incumbent rows; the best-fixed rerun checks against
 static_best_fixed_hindsight.
 
 Entry (from experiments/):
-    python -m a2c.incumbent_sensitivity --data <csv-dir> \
+    python -m a2case.incumbent_sensitivity --data <csv-dir> \
         [--out results/incumbent_sensitivity.json] \
         [--leg static36|mixed20|d2trace|analyze]
 """

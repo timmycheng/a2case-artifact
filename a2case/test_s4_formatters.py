@@ -14,10 +14,10 @@ from .arms import _windowize
 from .s4_reversion import CONDITIONS, measure_summary_tokens, s3plus_summary, \
     s4_matrix_text
 
-DATA = os.environ.get("A2C_DATA_DIR") or os.path.expanduser(
+DATA = os.environ.get("A2CASE_DATA_DIR") or os.path.expanduser(
     os.path.join("~", ".cache", "kagglehub", "datasets", "chethuhn",
     "network-intrusion-dataset", "versions", "1"))
-QWEN = os.environ.get("A2C_QWEN_DIR", r"..\data\models\Qwen2.5-0.5B-Instruct")
+QWEN = os.environ.get("A2CASE_QWEN_DIR", r"..\data\models\Qwen2.5-0.5B-Instruct")
 
 
 def main():

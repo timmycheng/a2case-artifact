@@ -29,7 +29,7 @@ Design invariants (fixed before running):
     concurrent instances.
 
 Entry point:
-    python -m a2c.contract_scope --data <csv-dir> \
+    python -m a2case.contract_scope --data <csv-dir> \
         --out results/contract_scope.json [--device cuda]
 """
 

@@ -8,8 +8,8 @@ import sys
 from . import scenarios, arms, metrics
 from .locals import LocalLLMPolicyGen, MiniLMEmbedder
 
-QWEN = os.environ.get("A2C_QWEN_DIR", "../data/models/Qwen2.5-0.5B-Instruct")
-MINILM = os.environ.get("A2C_MINILM_DIR", "../data/models/all-MiniLM-L6-v2")
+QWEN = os.environ.get("A2CASE_QWEN_DIR", "../data/models/Qwen2.5-0.5B-Instruct")
+MINILM = os.environ.get("A2CASE_MINILM_DIR", "../data/models/all-MiniLM-L6-v2")
 
 DIM_SETS = [
     ("src,dst", ["src", "dst"]),
@@ -21,7 +21,7 @@ DIM_SETS = [
     ("src,family", ["src", "family"]),
 ]
 SCEN_NAMES = ["A1", "A2", "A3", "B2", "B3", "E"]
-DATA = os.environ.get("A2C_DATA_DIR") or os.path.expanduser(
+DATA = os.environ.get("A2CASE_DATA_DIR") or os.path.expanduser(
     os.path.join("~", ".cache", "kagglehub", "datasets", "chethuhn",
     "network-intrusion-dataset", "versions", "1"))
 

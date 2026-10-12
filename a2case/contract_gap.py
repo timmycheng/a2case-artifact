@@ -37,7 +37,7 @@ Design invariants (fixed before running, mirroring s4_reversion):
     verified by the S1 anchor).
 
 Entry point:
-    python -m a2c.contract_gap --data <csv-dir> --out results/contract_gap.json \
+    python -m a2case.contract_gap --data <csv-dir> --out results/contract_gap.json \
         [--device cuda]
 """
 

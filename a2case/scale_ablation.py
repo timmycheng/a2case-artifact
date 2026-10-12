@@ -16,7 +16,7 @@ curve conditions; the 0.5B fp16-GPU condition isolates the precision/
 device effect from the size effect.
 
 Entry point:
-    python -m a2c.scale_ablation --data <csv-dir> \
+    python -m a2case.scale_ablation --data <csv-dir> \
         --out results/scale_ablation.json --models 0.5B,1.5B,3B,7B
 """
 
@@ -30,7 +30,7 @@ from . import arms, metrics, scenarios
 from .locals import LocalLLMPolicyGen
 from .round3 import evaluate_all
 
-MODEL_ROOT = os.environ.get("A2C_MODEL_ROOT", "./models")
+MODEL_ROOT = os.environ.get("A2CASE_MODEL_ROOT", "./models")
 QWEN_05 = r"..\data\models\Qwen2.5-0.5B-Instruct"
 
 # (label, path, device, dtype) -- dtype "fp16" -> float16; device "gpu"

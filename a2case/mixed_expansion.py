@@ -10,7 +10,7 @@ round3's parametric part; rows land in results/round3_expansion.json with
 part="parametric" so the round-3 statistics read them unchanged.
 
 Run once, after the stage-1 replay conclusions:
-    python -m a2c.mixed_expansion --data <csv-dir> \
+    python -m a2case.mixed_expansion --data <csv-dir> \
         --out results/round3_expansion.json
 """
 

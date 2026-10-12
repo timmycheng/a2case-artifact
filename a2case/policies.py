@@ -205,15 +205,15 @@ Window summary:
 class LLMPolicyGen:
     """Drop-in LLM policy generator (OpenAI-compatible chat completions).
 
-    Enabled by env: A2C_LLM_BASE_URL, A2C_LLM_API_KEY, A2C_LLM_MODEL.
+    Enabled by env: A2CASE_LLM_BASE_URL, A2CASE_LLM_API_KEY, A2CASE_LLM_MODEL.
     Records prompt/completion tokens per call for the cost model; invalid
     JSON falls back to the static policy (fallback rate is reported).
     """
 
     def __init__(self, delta_sec=300):
-        self.base_url = os.environ["A2C_LLM_BASE_URL"].rstrip("/")
-        self.api_key = os.environ.get("A2C_LLM_API_KEY", "")
-        self.model = os.environ.get("A2C_LLM_MODEL", "gpt-4o-mini")
+        self.base_url = os.environ["A2CASE_LLM_BASE_URL"].rstrip("/")
+        self.api_key = os.environ.get("A2CASE_LLM_API_KEY", "")
+        self.model = os.environ.get("A2CASE_LLM_MODEL", "gpt-4o-mini")
         self.delta_sec = delta_sec
         self.calls = 0
         self.prompt_tokens = 0

@@ -15,7 +15,7 @@ summary blocks, which are byte-identical to the deployed generator's by
 construction --- the same guard as contract_gap).
 
 Entry (from experiments/):
-    python -m a2c.case_cards [--device cuda]
+    python -m a2case.case_cards [--device cuda]
 Output: results/case_cards.json + printed digest.
 """
 

@@ -30,7 +30,7 @@ within strata from the seed-17 scenario builds the paper evaluates
 false-positive alerts carry no mapping claim and are out of scope.
 
 Entry point:
-    python -m a2c.audit_sample --data <csv-dir> --out results/audit
+    python -m a2case.audit_sample --data <csv-dir> --out results/audit
 """
 
 import argparse

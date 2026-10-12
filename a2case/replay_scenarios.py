@@ -26,7 +26,7 @@ emulation's label-derived assignment: dataset labels define ground truth;
 the audit machinery of stage 2 quantifies the mapping noise.
 
 Entry point:
-    python -m a2c.replay_scenarios --eve <dir-with-eve_*.json> \
+    python -m a2case.replay_scenarios --eve <dir-with-eve_*.json> \
         --out results/replay_compare.json [--llm]
 """
 
@@ -45,7 +45,7 @@ from .round3 import MINILM, QWEN, free_arms
 # Brunswick = Atlantic Daylight Time, UTC-3.
 ADT = timezone(timedelta(hours=-3))
 
-DEFAULT_EVE_DIR = os.environ.get("A2C_EVE_DIR", "./replay")
+DEFAULT_EVE_DIR = os.environ.get("A2CASE_EVE_DIR", "./replay")
 
 DAY_FILES = {
     "tuesday": ("eve_tuesday.json",

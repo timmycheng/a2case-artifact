@@ -29,7 +29,7 @@ Design (fixed before running):
   * recovery threshold: the smallest swept t at which burst_cases = 1.
 
 Entry point:
-    python -m a2c.window_sweep --eve <dir> --out results/window_sweep.json
+    python -m a2case.window_sweep --eve <dir> --out results/window_sweep.json
 """
 
 import argparse

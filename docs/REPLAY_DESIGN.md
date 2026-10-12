@@ -156,8 +156,8 @@ restriction, as everywhere in the paper):
 - `<data-root>\PCAPs\replay_all.sh` (WSL, root):
   suricata -c /etc/suricata/suricata.yaml -r <pcap> -l <dir> per day;
   run logs + alert counts in `replay/run_*.txt`.
-- `python -m a2c.eve_check` — re-run after the ingest change: PASS.
-- `python -m a2c.replay_scenarios --eve <data-root>\replay
+- `python -m a2case.eve_check` — re-run after the ingest change: PASS.
+- `python -m a2case.replay_scenarios --eve <data-root>\replay
   --out results/replay_compare.json [--llm]`.
 - Packet checks: `scripts/wsl_attacker_check.sh` (alert-side census),
   `scripts/wsl_packet_check.sh` + `wsl_tcpdump_control.sh` (packet-side).

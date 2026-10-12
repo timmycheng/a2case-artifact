@@ -3,10 +3,10 @@
 import json
 import sys
 
-from a2c import scenarios, arms, metrics
-from a2c.classics import OracleGen, run_julisch, DIM_SETS
-from a2c.locals import LocalLLMPolicyGen, MiniLMEmbedder
-from a2c.round3 import build_parametric, QWEN, MINILM, DATA
+from a2case import scenarios, arms, metrics
+from a2case.classics import OracleGen, run_julisch, DIM_SETS
+from a2case.locals import LocalLLMPolicyGen, MiniLMEmbedder
+from a2case.round3 import build_parametric, QWEN, MINILM, DATA
 
 
 def main(out_path="results/round3_local.json"):

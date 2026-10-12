@@ -226,7 +226,7 @@ def load_eve(path: str):
     as the family. Returns
     (alerts sorted by ts, stats) --- ground truth is not part of an EVE file
     and must be re-attached downstream (the round-trip check in
-    a2c.eve_check does this via the artifact's alert-id extension key)."""
+    a2case.eve_check does this via the artifact's alert-id extension key)."""
     n, n_bad, alerts = 0, 0, []
     with open(path, "r", encoding="utf-8") as f:
         for line in f:

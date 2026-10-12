@@ -13,7 +13,7 @@ per-window policy choices are unchanged. Run AFTER the GPU job and any
 --only patches have finished writing the file.
 
 Entry (from experiments/):
-    python -m a2c.trace_patch
+    python -m a2case.trace_patch
 """
 
 import json
