@@ -119,6 +119,33 @@ comparison changes sign anywhere in the band. The sweep bounds robustness
 to mapping noise; it does not substitute for analyst-validated incident
 ground truth.
 
+## Frontier condition reproducibility (GLM-5.3)
+
+The frontier condition (`a2case.round3_glm_ablation`, results in
+`results/round3_glm.json` + the mechanism batch in
+`results/s4_reversion_glm.json`) runs entirely through Zhipu AI's
+chat-completions API for `glm-5.3`:
+
+- **Access windows**: initial pass September 2026 (runs of 18 September
+  2026) on `open.bigmodel.cn/api/paas/v4`; the GLM mechanism cells
+  (S3-S4M) were collected in a second access window on the provider's
+  coding-plan endpoint `open.bigmodel.cn/api/coding/paas/v4` after the
+  initial key's quota lapsed - same model identifier, same request body
+  (including `thinking={"type":"enabled","effort":"low"}`), one endpoint
+  on one day.
+- **Request parameters**: temperature 0 (greedy), `max_tokens` 2048,
+  thinking effort `low` (the model always emits reasoning tokens; they
+  cannot be disabled); the same system/user prompt, schema validation,
+  and static fallback as the 0.5B condition. Completion tokens are
+  3-4x prompt tokens because reasoning tokens dominate.
+- **Rate limits**: two workers with exponential backoff (4-180 s, up to
+  8 attempts) under the provider's rate limits.
+- **No snapshot pinning**: the provider offers none; run-to-run
+  variation is bounded in the paper by the C3 mechanism-batch vs initial
+  pass delta (0.499 vs 0.425) and the two D2-under-C1 entries (0.600 vs
+  0.575). Per-window policy traces are in the released results JSONs
+  (`policy_trace` / `dims_hist` fields).
+
 Verification (tables vs. stored results):
 
 ```
