@@ -94,6 +94,31 @@ artifacts (each module's docstring has the exact flags):
 | `a2case.eve_check` | `results/eve_roundtrip_*.jsonl` | EVE ingest round-trip check |
 | `a2case.figures` | figures | paper figures (PDF) |
 
+## Mapping rules and mapping-audit protocol
+
+The reference partition is defined by one rule: **incident id = (documented
+attack window, participant set)**; the infiltration campaign's three
+documented phases map to a single incident (the dataset treats them as one
+attack instance), and benign false-positive alerts carry no mapping claim.
+Every cell of the paper's mapping funnel (Table: stream -> sessions ->
+alerts -> benign -> mapped -> reference incidents) regenerates from
+`results/audit/audit_manifest.json` (strata populations) plus the seed-17
+`n_alerts` / `n_incidents` rows in `results/results.json`.
+
+Mapping-audit protocol (`results/audit/`): 50 mapped alerts sampled
+stratified over 16 strata (15 signature families + the synthetic-D2 twin
+stratum), minimum 3 per stratum, seed 20260921 (`audit_manifest.json`).
+A single author rated each sampled assignment
+correct / wrong-incident / ambiguous against the mapping rule
+(`audit_worksheet.csv` carries the per-alert judgment hints); observed
+precision 50/50 = 1.00. Because a zero error rate on 50 samples cannot
+exclude small error rates, `a2case.audit_sensitivity` re-scores all 24
+parametric instances under injected error rates e in {0, 0.02, 0.05, 0.10,
+0.15}; the e=0 point reproduces the paper's rows exactly, and no arm
+comparison changes sign anywhere in the band. The sweep bounds robustness
+to mapping noise; it does not substitute for analyst-validated incident
+ground truth.
+
 Verification (tables vs. stored results):
 
 ```
