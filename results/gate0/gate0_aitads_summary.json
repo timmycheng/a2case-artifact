@@ -1,0 +1,289 @@
+{
+ "scenarios": {
+  "fox": {
+   "n_suricata_alerts": 11084,
+   "n_wazuh_native_alerts": 451439,
+   "first_seen_utc": "2022-01-15T03:45:39.681006+00:00",
+   "last_seen_utc": "2022-01-19T18:58:58.607554+00:00",
+   "span_days": 4.63,
+   "alerts_in_attack_windows": 343,
+   "alerts_normal_behavior_fp": 10741,
+   "fp_per_day": 2317.7,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "dnsteal": 17,
+    "network_scans": 100,
+    "service_scans": 32,
+    "dirb": 4,
+    "cracking": 190
+   },
+   "stages_with_zero_alerts": [
+    "service_stop",
+    "wpscan",
+    "webshell",
+    "reverse_shell",
+    "privilege_escalation"
+   ]
+  },
+  "harrison": {
+   "n_suricata_alerts": 67384,
+   "n_wazuh_native_alerts": 516370,
+   "first_seen_utc": "2022-02-04T00:00:07.756748+00:00",
+   "last_seen_utc": "2022-02-08T21:03:52.998545+00:00",
+   "span_days": 4.88,
+   "alerts_in_attack_windows": 2252,
+   "alerts_normal_behavior_fp": 65132,
+   "fp_per_day": 13353.3,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "network_scans": 112,
+    "service_scans": 330,
+    "wpscan": 12,
+    "dirb": 390,
+    "webshell": 8,
+    "cracking": 451,
+    "reverse_shell": 8,
+    "privilege_escalation": 6,
+    "service_stop": 2,
+    "dnsteal": 933
+   },
+   "stages_with_zero_alerts": []
+  },
+  "russellmitchell": {
+   "n_suricata_alerts": 9186,
+   "n_wazuh_native_alerts": 32302,
+   "first_seen_utc": "2022-01-21T00:14:21.351932+00:00",
+   "last_seen_utc": "2022-01-24T21:05:31.035910+00:00",
+   "span_days": 3.87,
+   "alerts_in_attack_windows": 213,
+   "alerts_normal_behavior_fp": 8973,
+   "fp_per_day": 2319.3,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "service_scans": 44,
+    "wpscan": 2,
+    "webshell": 2,
+    "cracking": 1,
+    "dnsteal": 164
+   },
+   "stages_with_zero_alerts": [
+    "network_scans",
+    "dirb",
+    "reverse_shell",
+    "privilege_escalation",
+    "service_stop"
+   ]
+  },
+  "santos": {
+   "n_suricata_alerts": 44112,
+   "n_wazuh_native_alerts": 82401,
+   "first_seen_utc": "2022-01-14T00:00:09.728242+00:00",
+   "last_seen_utc": "2022-01-17T19:58:16.640938+00:00",
+   "span_days": 3.83,
+   "alerts_in_attack_windows": 415,
+   "alerts_normal_behavior_fp": 43697,
+   "fp_per_day": 11403.1,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "dnsteal": 144,
+    "network_scans": 40,
+    "service_scans": 35,
+    "wpscan": 2,
+    "webshell": 2,
+    "cracking": 192
+   },
+   "stages_with_zero_alerts": [
+    "service_stop",
+    "dirb",
+    "reverse_shell",
+    "privilege_escalation"
+   ]
+  },
+  "shaw": {
+   "n_suricata_alerts": 16692,
+   "n_wazuh_native_alerts": 51847,
+   "first_seen_utc": "2022-01-25T00:20:02.236435+00:00",
+   "last_seen_utc": "2022-01-30T19:23:15.908151+00:00",
+   "span_days": 5.79,
+   "alerts_in_attack_windows": 204,
+   "alerts_normal_behavior_fp": 16488,
+   "fp_per_day": 2845.7,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "cracking": 204
+   },
+   "stages_with_zero_alerts": [
+    "service_stop",
+    "dnsteal",
+    "network_scans",
+    "service_scans",
+    "wpscan",
+    "dirb",
+    "webshell",
+    "reverse_shell",
+    "privilege_escalation"
+   ]
+  },
+  "wardbeck": {
+   "n_suricata_alerts": 24510,
+   "n_wazuh_native_alerts": 63694,
+   "first_seen_utc": "2022-01-19T01:02:04.669876+00:00",
+   "last_seen_utc": "2022-01-23T21:14:22.229893+00:00",
+   "span_days": 4.84,
+   "alerts_in_attack_windows": 207,
+   "alerts_normal_behavior_fp": 24303,
+   "fp_per_day": 5019.3,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "dnsteal": 4,
+    "service_scans": 17,
+    "webshell": 2,
+    "cracking": 184
+   },
+   "stages_with_zero_alerts": [
+    "service_stop",
+    "network_scans",
+    "wpscan",
+    "dirb",
+    "reverse_shell",
+    "privilege_escalation"
+   ]
+  },
+  "wheeler": {
+   "n_suricata_alerts": 68629,
+   "n_wazuh_native_alerts": 535310,
+   "first_seen_utc": "2022-01-26T01:56:35.579669+00:00",
+   "last_seen_utc": "2022-01-30T22:53:33.804782+00:00",
+   "span_days": 4.87,
+   "alerts_in_attack_windows": 689,
+   "alerts_normal_behavior_fp": 67940,
+   "fp_per_day": 13942.4,
+   "n_stage_windows": 9,
+   "stage_hits": {
+    "dnsteal": 143,
+    "network_scans": 314,
+    "service_scans": 36,
+    "dirb": 156,
+    "wpscan": 16,
+    "webshell": 4,
+    "reverse_shell": 12,
+    "privilege_escalation": 8
+   },
+   "stages_with_zero_alerts": [
+    "service_stop"
+   ]
+  },
+  "wilson": {
+   "n_suricata_alerts": 65038,
+   "n_wazuh_native_alerts": 560265,
+   "first_seen_utc": "2022-02-03T05:11:36.795296+00:00",
+   "last_seen_utc": "2022-02-08T20:36:59.519320+00:00",
+   "span_days": 5.64,
+   "alerts_in_attack_windows": 1695,
+   "alerts_normal_behavior_fp": 63343,
+   "fp_per_day": 11225.8,
+   "n_stage_windows": 10,
+   "stage_hits": {
+    "dnsteal": 880,
+    "network_scans": 92,
+    "service_scans": 48,
+    "dirb": 228,
+    "wpscan": 24,
+    "webshell": 20,
+    "cracking": 399,
+    "reverse_shell": 4
+   },
+   "stages_with_zero_alerts": [
+    "service_stop",
+    "privilege_escalation"
+   ]
+  }
+ },
+ "format": {
+  "suricata_carrier": "verbatim EVE alert records embedded in <scenario>_wazuh.json under 'data', provenance /var/log/suricata/eve.json",
+  "field_presence_in_first_5000": {
+   "timestamp": 40000,
+   "src_ip": 40000,
+   "src_port": 40000,
+   "dest_ip": 40000,
+   "dest_port": 40000,
+   "proto": 40000,
+   "app_proto": 40000,
+   "flow_id": 40000,
+   "alert.signature": 40000,
+   "alert.signature_id": 40000,
+   "alert.category": 40000,
+   "alert.severity": 40000,
+   "alert.action": 40000
+  },
+  "missing_vs_harness_contract": [],
+  "top_signatures": [
+   [
+    "SURICATA TLS invalid handshake message",
+    14562
+   ],
+   [
+    "SURICATA TLS invalid record/traffic",
+    14562
+   ],
+   [
+    "ET INFO Observed DNS Query to .biz TLD",
+    9317
+   ],
+   [
+    "ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management",
+    1401
+   ],
+   [
+    "ET INFO Observed DNS Query to .cloud TLD",
+    63
+   ],
+   [
+    "SURICATA HTTP unable to match response to request",
+    61
+   ],
+   [
+    "ET DNS Query for .cc TLD",
+    12
+   ],
+   [
+    "ET DNS Query for .to TLD",
+    10
+   ],
+   [
+    "SURICATA HTTP gzip decompression failed",
+    8
+   ],
+   [
+    "SURICATA HTTP invalid response chunk len",
+    2
+   ],
+   [
+    "ET INFO TLS Handshake Failure",
+    2
+   ]
+  ],
+  "top_categories": [
+   [
+    "Generic Protocol Command Decode",
+    29195
+   ],
+   [
+    "Potentially Bad Traffic",
+    9404
+   ],
+   [
+    "Not Suspicious Traffic",
+    1401
+   ]
+  ]
+ },
+ "scale": {
+  "attack_executions": 8,
+  "stage_windows_total": 79,
+  "paired_instances_paper_rule": 8,
+  "cic_paired_instances": 24,
+  "power_note": "exact two-sided Wilcoxon at n=8: all-8 same sign p=0.0078; 7/8 p~0.078; 6/8 p~0.29"
+ },
+ "noise": {}
+}

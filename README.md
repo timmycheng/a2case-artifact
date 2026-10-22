@@ -151,11 +151,57 @@ Verification (tables vs. stored results):
 ```
 python verify_tab_main.py
 python verify_tab_llm.py
+python verify_tab_aitads.py
 ```
 
 The pre-registration documents in `prereg/` were frozen before the
 corresponding batches were executed; `docs/` records design decisions and
 claim scoping for each study thread.
+
+## AIT-ADS external validity (paper v2026.10.21-r1+)
+
+The paper's External Validity section (Table `tab:aitads`) is fully
+reproducible from this repository.
+
+**Data** (not redistributed here; download once):
+AIT-ADS v1, Zenodo record 8263181 (CC-BY-4.0) — `ait_ads.zip`
+(96,202,946 B, MD5 `43db6b1f0996e0024befd617706c50e9`) and
+`labels.csv` (MD5 `60ff33796c77fd2136c4d1a4bc841bd9`). The audit
+sample CSVs under `results/gate0/` are small derived excerpts from
+the CC-BY-4.0 release (attribution: Landauer, Skopik, Wurzenberger,
+CSET'24).
+
+**Pipeline** (all commands from the repo root):
+
+```
+# 1. Gate 0 verification of the downloaded archive (streaming, no unpack)
+python gate0_aitads_check.py <ait_ads.zip> <labels.csv> results/gate0/gate0_aitads_summary.json
+
+# 2. Reference partition + fast-arm matrix (7 static keys, embedding, PSH)
+python -m a2case.aitads_matrix --zip <ait_ads.zip> --labels <labels.csv>
+
+# 3. LLM 0.5B arm (float16/GPU; per-scenario checkpointing under results/gate0/llm05/)
+python -m a2case.aitads_llm --zip <ait_ads.zip> --labels <labels.csv>
+
+# 4. Recompute every statistic the paper reports (paired Wilcoxon, CIC-vs-AIT-ADS table)
+python -m a2case.aitads_compare
+
+# 5. Verify the paper's printed table cell-by-cell against stored results
+python verify_tab_aitads.py
+```
+
+**Reference-partition rule** (documented and time-stamped in the
+project's gate-0 memo): incident = a labeled stage window carrying at
+least one alert (47 stage incidents over 8 scenario streams); pairing
+is by scenario stream; `shaw` is structurally degenerate (single-stage)
+and excluded from the primary tests. The rule was revised from
+execution-level to stage-level **before** any arm-vs-arm comparison was
+computed (block-level references leave single-class streams, where ARI
+degenerates); the revision timeline is part of the released record.
+
+Stored raw results: `results/gate0/` (matrix, per-scenario LLM runs
+with full policy traces, hindsight keys, embedding seed sensitivity,
+audit samples, Gate 0 summary).
 
 ## Determinism and seeds
 

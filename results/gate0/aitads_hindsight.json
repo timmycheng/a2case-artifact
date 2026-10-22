@@ -1,0 +1,34 @@
+{
+ "fox": {
+  "dimset": "family",
+  "ari": 0.9475657717758735
+ },
+ "harrison": {
+  "dimset": "family",
+  "ari": 0.2773100700864713
+ },
+ "russellmitchell": {
+  "dimset": "family",
+  "ari": 0.9478087941238167
+ },
+ "santos": {
+  "dimset": "family",
+  "ari": 0.5550694953248488
+ },
+ "shaw": {
+  "dimset": "family",
+  "ari": 1.0
+ },
+ "wardbeck": {
+  "dimset": "family",
+  "ari": 0.3812335954367477
+ },
+ "wheeler": {
+  "dimset": "family",
+  "ari": 0.25607709544445967
+ },
+ "wilson": {
+  "dimset": "family",
+  "ari": 0.7175112066728079
+ }
+}

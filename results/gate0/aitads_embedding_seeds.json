@@ -1,0 +1,170 @@
+[
+ {
+  "scenario": "fox",
+  "seed": 17,
+  "ari": 0.29424065576691577,
+  "over": 0.5,
+  "under": 0.6
+ },
+ {
+  "scenario": "fox",
+  "seed": 29,
+  "ari": 0.29424065576691577,
+  "over": 0.5,
+  "under": 0.6
+ },
+ {
+  "scenario": "fox",
+  "seed": 43,
+  "ari": 0.29424065576691577,
+  "over": 0.5,
+  "under": 0.6
+ },
+ {
+  "scenario": "harrison",
+  "seed": 17,
+  "ari": 0.2773100700864713,
+  "over": 0.6666666666666666,
+  "under": 0.8
+ },
+ {
+  "scenario": "harrison",
+  "seed": 29,
+  "ari": 0.2773100700864713,
+  "over": 0.6666666666666666,
+  "under": 0.8
+ },
+ {
+  "scenario": "harrison",
+  "seed": 43,
+  "ari": 0.2773100700864713,
+  "over": 0.6666666666666666,
+  "under": 0.8
+ },
+ {
+  "scenario": "russellmitchell",
+  "seed": 17,
+  "ari": 0.9472334772347264,
+  "over": 0.6666666666666666,
+  "under": 0.2
+ },
+ {
+  "scenario": "russellmitchell",
+  "seed": 29,
+  "ari": 0.9472334772347264,
+  "over": 0.6666666666666666,
+  "under": 0.2
+ },
+ {
+  "scenario": "russellmitchell",
+  "seed": 43,
+  "ari": 0.9472334772347264,
+  "over": 0.6666666666666666,
+  "under": 0.2
+ },
+ {
+  "scenario": "santos",
+  "seed": 17,
+  "ari": 0.625998619538169,
+  "over": 0.5,
+  "under": 0.3333333333333333
+ },
+ {
+  "scenario": "santos",
+  "seed": 29,
+  "ari": 0.625998619538169,
+  "over": 0.5,
+  "under": 0.3333333333333333
+ },
+ {
+  "scenario": "santos",
+  "seed": 43,
+  "ari": 0.625998619538169,
+  "over": 0.5,
+  "under": 0.3333333333333333
+ },
+ {
+  "scenario": "shaw",
+  "seed": 17,
+  "ari": 1.0,
+  "over": 0.0,
+  "under": 0.0
+ },
+ {
+  "scenario": "shaw",
+  "seed": 29,
+  "ari": 1.0,
+  "over": 0.0,
+  "under": 0.0
+ },
+ {
+  "scenario": "shaw",
+  "seed": 43,
+  "ari": 1.0,
+  "over": 0.0,
+  "under": 0.0
+ },
+ {
+  "scenario": "wardbeck",
+  "seed": 17,
+  "ari": 0.46949835615826735,
+  "over": 0.6666666666666666,
+  "under": 0.5
+ },
+ {
+  "scenario": "wardbeck",
+  "seed": 29,
+  "ari": 0.46949835615826735,
+  "over": 0.6666666666666666,
+  "under": 0.5
+ },
+ {
+  "scenario": "wardbeck",
+  "seed": 43,
+  "ari": 0.46949835615826735,
+  "over": 0.6666666666666666,
+  "under": 0.5
+ },
+ {
+  "scenario": "wheeler",
+  "seed": 17,
+  "ari": 0.25636211130991327,
+  "over": 0.4,
+  "under": 0.625
+ },
+ {
+  "scenario": "wheeler",
+  "seed": 29,
+  "ari": 0.25636211130991327,
+  "over": 0.4,
+  "under": 0.625
+ },
+ {
+  "scenario": "wheeler",
+  "seed": 43,
+  "ari": 0.25636211130991327,
+  "over": 0.4,
+  "under": 0.625
+ },
+ {
+  "scenario": "wilson",
+  "seed": 17,
+  "ari": 0.7175112066728079,
+  "over": 0.25,
+  "under": 0.25
+ },
+ {
+  "scenario": "wilson",
+  "seed": 29,
+  "ari": 0.7175112066728079,
+  "over": 0.25,
+  "under": 0.25
+ },
+ {
+  "scenario": "wilson",
+  "seed": 43,
+  "ari": 0.7175112066728079,
+  "over": 0.25,
+  "under": 0.25
+ }
+]
